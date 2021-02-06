@@ -1,6 +1,13 @@
+/*
+ * @Author: MingshanHe
+ * @Email: hemingshan_1999@163.com
+ * @Date: 2021-02-06 20:06:03
+ * @Last Modified by:   MingshanHe
+ * @Last Modified time: 2021-02-06 20:06:03
+ * @Description: Description
+ */
+
 #include "load_map.h"
-
-
 
 LoadMap::LoadMap(const char* map_str)
 {

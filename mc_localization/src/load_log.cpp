@@ -1,3 +1,12 @@
+/*
+ * @Author: MingshanHe
+ * @Email: hemingshan_1999@163.com
+ * @Date: 2021-02-06 20:05:54
+ * @Last Modified by: MingshanHe
+ * @Last Modified time: 2021-02-06 20:06:23
+ * @Description: Description
+ */
+
 #include "load_log.h"
 
 
