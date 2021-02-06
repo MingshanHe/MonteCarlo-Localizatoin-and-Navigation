@@ -26,10 +26,10 @@ int main(int argc, char** argv)
     ros::NodeHandle n;
 
     string package_path;
-    string map_local_path = "pf_localization/data/map/map.dat";
-    string log_local_path = "pf_localization/data/log/robotdata1.log";
+    string map_local_path = "mc_localization/data/map/map.dat";
+    string log_local_path = "mc_localization/data/log/robotdata1.log";
 
-    n.getParam("/pf_localization/package_path_param",package_path);
+    n.getParam("mc_localization/package_path_param",package_path);
     string complete_map_path = package_path + map_local_path;
     string complete_log_path = package_path + log_local_path;
     const char* complete_map_path_c = complete_map_path.c_str();
