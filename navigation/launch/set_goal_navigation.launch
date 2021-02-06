@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+
+	<!-- 同学们注意, 这个是 xml 文件的注释格式, 不要打错 -->
+	<include file="$(find turtlebot3_gazebo)/launch/turtlebot3_house.launch"/>
+	<!-- 用于包含正常启动导航 launch -->
+	<include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch">
+		<!-- 设置该 launch 文件的参数 -->
+		<!-- 我改到launch文件里了 -->
+    	<arg name="map_file" value="/home/hemingshan/robot-localisation/src/navigation/data/map/map.yaml" />
+  	</include>
+
+	<node pkg="navigation" type="init_pose" name="init_pose" output="screen"/>
+	<node pkg="navigation" type="set_goal" name="set_goal" output="screen" launch-prefix="gnome-terminal -e"/>
+</launch> 

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+	<include file="$(find turtlebot3_gazebo)/launch/turtlebot3_house.launch"/>
+	<include file="$(find turtlebot3_navigation)/launch/turtlebot3_navigation.launch"/>
+
+	<node pkg="advanced_navi" type="init_pose" name="init_pose" output="screen"/>
+	<node pkg="advanced_navi" type="sequence_goal" name="sequence_goal" launch-prefix="xterm -e" args="/home/hemingshan/robot-localisation/src/advanced-navigation-exp/data/landmarks.txt" output="screen"/>
+
+</launch> 

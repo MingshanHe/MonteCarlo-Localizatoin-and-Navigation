@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/hemingshan/robot-localization/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/hemingshan/robot-localization/src/mc_localization/include/**",
+                "/home/hemingshan/robot-localization/src/navigation/include/**",
+                "/home/hemingshan/robot-localization/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake/include/**",
+                "/home/hemingshan/robot-localization/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+                "/home/hemingshan/robot-localization/src/turtlebot3/turtlebot3/turtlebot3_slam/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
